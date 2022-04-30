@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.container {
+  display: flex;
+  flex: 3;
+  height: max-content;
+  overflow-x: hidden;
+}
+#card-1 {
+  padding: 3% 5%;
+  background-color: hsl(31, 77%, 52%);
+  width: 33%;
+}
+#card-2 {
+  padding: 3% 5%;
+  background-color: hsl(184, 100%, 22%);
+
+  width: 33%;
+}
+
+#card-3 {
+  padding: 3% 5%;
+  background-color: hsl(179, 100%, 13%);
+  width: 33%;
+}
+img {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 20px;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.btn {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 5%;
+  border-style: none;
+  width: 60%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+ 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width:900px){
+
+ main{
+    padding:10% 7%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    
+}
+    
+ .container{
+   /* display: flex; */
+   display: block;
+   width: 50%;
+  
+ }
+
+ #card-1, #card-2, #card-3{
+  padding: 10% 15%;
+  width: 100%;
+  
+ }
+ 
+}
+
